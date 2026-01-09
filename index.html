@@ -3,84 +3,133 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My News Site - Home</title>
+<title>Daily Pulse News</title>
 
 <style>
-body { margin:0; font-family: Arial,sans-serif; background:#f2f2f2; }
-header { background:#b71c1c; color:white; padding:15px; text-align:center; font-size:24px; font-weight:bold; }
-nav { background:#212121; padding:10px; text-align:center; }
-nav a { color:white; text-decoration:none; margin:0 10px; font-size:16px; }
-.breaking { background:yellow; padding:10px; font-weight:bold; }
-.container { padding:15px; }
-.news { background:white; margin-bottom:20px; padding:15px; border-radius:5px; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
-.news img { width:100%; border-radius:5px; margin-bottom:10px; }
-.news h2 { margin-top:0; font-size:20px; }
-.news a { text-decoration:none; color:#000; }
-footer { background:#212121; color:white; text-align:center; padding:10px; font-size:14px; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+header {
+  background: #b71c1c;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav {
+  background: #212121;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.breaking {
+  background: yellow;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.container {
+  padding: 15px;
+}
+
+.news {
+  background: white;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.news h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.news img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #212121;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
 </style>
 </head>
+
 <body>
 
-<header>MY NEWS SITE</header>
+<header>Daily Pulse News</header>
 
 <nav>
   <a href="index.html">Home</a>
   <a href="india.html">India</a>
   <a href="world.html">World</a>
   <a href="sports.html">Sports</a>
-  <a href="#">Tech</a>
 </nav>
 
 <div class="breaking">
-<marquee>
-BREAKING: Website Launched 🚀 | India Wins Hockey Match | Apple Launches iPhone 17
-</marquee>
+BREAKING: Website successfully launched 🚀
 </div>
 
 <div class="container">
 
-<h2 style="color:#b71c1c;">India News</h2>
-<div class="news">
-<img src="https://picsum.photos/id/1011/600/250" alt="Hockey Match">
-<h2><a href="india1.html">India Wins Hockey Match</a></h2>
-<p>India defeated Australia 3-1 in the semi-finals of the Hockey World Cup.</p>
-</div>
+  <div class="news">
+    <h2><a href="india1.html">India Wins Hockey Match</a></h2>
+    <img src="https://picsum.photos/id/1011/600/250" alt="Hockey Match">
+    <p>India defeated Australia 3-1 in the semi-finals of the Hockey World Cup. Fans are celebrating across the country.</p>
+  </div>
 
-<div class="news">
-<img src="https://picsum.photos/id/1003/600/250" alt="iPhone 17">
-<h2><a href="india2.html">Apple Launches iPhone 17</a></h2>
-<p>Apple introduced its new iPhone 17 with upgraded camera and features.</p>
-</div>
+  <div class="news">
+    <h2><a href="india2.html">Apple Launches iPhone 17</a></h2>
+    <img src="https://picsum.photos/id/1003/600/250" alt="iPhone 17">
+    <p>Apple introduced its new iPhone 17 with an upgraded camera and longer battery life. Pre-orders have started worldwide.</p>
+  </div>
 
-<h2 style="color:#1a237e;">World News</h2>
-<div class="news">
-<img src="https://picsum.photos/id/1050/600/250" alt="Climate Summit">
-<h2><a href="world1.html">World Leaders Meet for Climate Summit</a></h2>
-<p>Leaders from 50 countries gathered to discuss climate change.</p>
-</div>
+  <div class="news">
+    <h2><a href="world1.html">World Leaders Meet for Climate Summit</a></h2>
+    <img src="https://picsum.photos/id/1050/600/250" alt="Climate Summit">
+    <p>Leaders from 50 countries gathered to discuss climate change and carbon emission reduction targets. Agreements were highlighted.</p>
+  </div>
 
-<div class="news">
-<img src="https://picsum.photos/id/1040/600/250" alt="Stock Market">
-<h2><a href="world2.html">Stock Market Hits Record High</a></h2>
-<p>Stock market reached all-time high after positive reports.</p>
-</div>
+  <div class="news">
+    <h2><a href="world2.html">Stock Market Hits Record High</a></h2>
+    <img src="https://picsum.photos/id/1040/600/250" alt="Stock Market">
+    <p>The stock market reached an all-time high today with major indices surging after positive economic reports.</p>
+  </div>
 
-<h2 style="color:#388e3c;">Sports News</h2>
-<div class="news">
-<img src="https://picsum.photos/id/1062/600/250" alt="Olympics 2026">
-<h2><a href="sports1.html">Olympics 2026 Preparations Underway</a></h2>
-<p>Preparations for Winter Olympics are in full swing.</p>
-</div>
+  <div class="news">
+    <h2><a href="sports1.html">Olympics 2026 Preparations Underway</a></h2>
+    <img src="https://picsum.photos/id/1062/600/250" alt="Olympics 2026">
+    <p>Preparations for the 2026 Winter Olympics are in full swing. Venues are being constructed and athletes are training rigorously.</p>
+  </div>
 
-<div class="news">
-<img src="https://picsum.photos/id/1070/600/250" alt="Electric Car">
-<h2><a href="sports2.html">New Electric Car Launch</a></h2>
-<p>Tesla unveiled its latest electric car with longer range.</p>
-</div>
+  <div class="news">
+    <h2><a href="sports2.html">New Electric Car Launch</a></h2>
+    <img src="https://picsum.photos/id/1070/600/250" alt="Electric Car">
+    <p>Tesla unveiled its latest electric car model with longer range and faster charging capabilities. The new model is expected to revolutionize the EV market.</p>
+  </div>
 
 </div>
 
-<footer>© 2026 My News Site | All Rights Reserved</footer>
+<footer>
+© 2026 Daily Pulse News | All Rights Reserved
+</footer>
 
 </body>
 </html>
